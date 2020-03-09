@@ -1,6 +1,8 @@
-# Dapp Boilerplate
+# React Scratch Pad
 
-This repo makes use of a React, Redux + Saga, Reselect boilerplate
+This repo is to have a quick wired up experiement area for testing out web3 component.
+
+To start writing code, either navigate to `/WebApp/app/components/ScratchPad` or search for `BEGIN SCRATCH PAD` 
 
 ## Table of Contents
 
@@ -8,7 +10,6 @@ This repo makes use of a React, Redux + Saga, Reselect boilerplate
 - [Install](#install)
 - [Usage](#usage)
 - [Contributing](#contributing)
-<!-- - [License](#license) -->
 
 ## Features
 
@@ -23,22 +24,6 @@ This repo makes use of a React, Redux + Saga, Reselect boilerplate
 * Compiling: [Webpack](https://webpack.js.org/) + [Babel](https://babeljs.io/)
 * Forms & Validation: [Formik](https://jaredpalmer.com/formik) + [Yup](https://github.com/jquense/yup) 
 * Notifications: [Toastify](https://fkhadra.github.io/react-toastify/)
-
-### Structure
-
-The boiler is set up as a [Yarn](https://yarnpkg.com/) workspace/monorepo, this allows for adding additional workspaces like `Blockchain` or `Server` if required and executing parallel scripts across all spaces.
-
-### Webapp
-
-The web app is structured as a standard React app, the important areas to note is the `/api`, `/domains`, `/containers` & `/components`.
-
-The api interactions have helpers to automatically format form field data, collect access token headers and allow for reducer-esque api calling functions. 
-
-The domains folder acts as the apps main Daemon & singleton business logic management components, general app actions are managed here, reducers for the domain state, selectors etc can be found here. Domains are meant to be globally accessable services facilitated through Redux-Saga for async actions
-
-The containers folder allows for managing the business logic of constructing selectors, action dispatch functions, and any complex operations that should be managed seperately from the mark up.
-
-The components folder is for markup files & styling.
 
 ## Install
 
@@ -56,14 +41,6 @@ For running a local instance use the command:
 ```
 yarn start:dev
 ```
-
-### Template generator
-
-To make use of the webapp template generator, first open a terminal and navigate to `./WebApp`, run the command `yarn generate` & follow the prompts.
-
-### Build
-
-To build the project across workspaces, at the root of the directory, run the command `yarn build`.
 
 ## Contributions
 
