@@ -1,9 +1,9 @@
 {
-  "name": "dapp-boilerplate",
+  "name": "react-scratchpad",
   "version": "1.0.0",
-  "description": "A dapp boilerplate for standardising development",
+  "description": "A scratch pad based off the dapp boiler for quick tinkering",
   "main": "index.js",
-  "repository": "https://github.com/ChainSafe/dapp-boilerplate.git",
+  "repository": "https://github.com/ChainSafe/react-scratchpad.git",
   "author": "Ryan Noble <ryanjnoble@gmail.com>",
   "license": "MIT",
   "private": true,
