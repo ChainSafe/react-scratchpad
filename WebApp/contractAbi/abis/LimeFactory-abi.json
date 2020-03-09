@@ -1,0 +1,81 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "internalType": "string",
+        "name": "name",
+        "type": "string"
+      }
+    ],
+    "name": "FreshLime",
+    "type": "event"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "internalType": "uint256",
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "limes",
+    "outputs": [
+      {
+        "internalType": "string",
+        "name": "name",
+        "type": "string"
+      },
+      {
+        "internalType": "uint8",
+        "name": "carbohydrates",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "fat",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "protein",
+        "type": "uint8"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "internalType": "string",
+        "name": "_name",
+        "type": "string"
+      },
+      {
+        "internalType": "uint8",
+        "name": "_carbohydrates",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "_fat",
+        "type": "uint8"
+      },
+      {
+        "internalType": "uint8",
+        "name": "_protein",
+        "type": "uint8"
+      }
+    ],
+    "name": "createLime",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
